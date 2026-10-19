@@ -1,0 +1,34 @@
+# Local editor and agent state
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.agents/
+.codex/
+
+# Local tool state and generated FPGA output
+*.lic
+build/
+logs/
+docs/
+impl/
+*.gprj.user
+
+# Simulator output
+work/
+transcript
+vsim.wlf
+*.wlf
+*.vcd
+*.fst
+*.ghw
+*.dump
+
+# Firmware build intermediates
+sw/*.asm
+sw/*.bin
+sw/*.elf
+sw/*.map
